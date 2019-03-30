@@ -51,7 +51,7 @@ html {
 }
 
 body{
-	background: #f8e8fc; /* Old browsers */
+background: #f8e8fc; /* Old browsers */
 background: -moz-linear-gradient(top, #f8e8fc 1%, #f9b1c9 50%, #a065a5 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top, #f8e8fc 1%,#f9b1c9 50%,#a065a5 100%); /* Chrome10-25,Safari5.1-6 */
 background: linear-gradient(to bottom, #f8e8fc 1%,#f9b1c9 50%,#a065a5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
