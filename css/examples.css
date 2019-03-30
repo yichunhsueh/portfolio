@@ -1,4 +1,4 @@
-﻿/* ---reset.css--- */
+/* ---reset.css--- */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,13 +50,15 @@ html {
 	-webkit-text-size-adjust:none;
 }
 
-body{
- background-color: hsla(0,0%,6%,1.00);
+body{ margin: 10px auto;
+ 
 }
 
 
 .slider-pro {
     font-family: 'Open Sans', Arial;
+	padding: 3px 0;
+	background-color: #000;
 }
 /* Example 1 */
 #example1 .sp-thumbnail {
@@ -113,27 +115,18 @@ body{
 #example3 .sp-selected-thumbnail {
 	border: 4px solid #000;
 }
-.htmleaf-header { width: 960px; height: 50px; margin: 0 auto; padding-top: 30PX;
-}
-.htmleaf-header a{ padding:6px 15px;
-	margin:0px 5.5%; 
-	background-color: hsla(0,0%,0%,1.00);
-	border: hsla(22,30%,11%,1.00) 2px solid;
-	border-radius: 310px;
-	color: hsla(19,43%,31%,1.00);
-	text-decoration: none;
-	letter-spacing: 1px;
-}
-.htmleaf-header a:hover{ color: hsla(32,100%,37%,1.00)}
-.title{ width: 160px;
-	line-height:2.4rem;
-	margin:40px auto;
-	color:hsla(22,90%,35%,1.00);
-	background-color:#1E110A;
-	border: solid 0.3rem hsla(22,90%,35%,1.00);
-	border-radius: 1.4rem;
+
+.title{
+	width:400px;
+	line-height:2.6rem;
+	margin:60px auto 100px auto;
+	color:#fff;
+	border: solid 0.1rem #DBA1E1;
+	background-color: #DBA1E1;
+	border-radius: 1.6rem;
 	text-align: center; 
-font-weight: bold; letter-spacing: 1px;}
+	font-weight: bold; 
+	letter-spacing: 1px;}
 .project{width: 1000px; margin:0 auto; position: relative; }
 .project ul{}
 .project ul li{ float: left; width: 19%; margin:0 3%;}
@@ -141,96 +134,94 @@ font-weight: bold; letter-spacing: 1px;}
 	font-size:1.6em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	line-height:2;
-	border-bottom:1px solid #6C461B;
-	color:#F79D4F;
-	text-align:center;}
+	border-bottom:1px solid #8A0764;
+	color:#8A0764;
+	text-align:center;
+	font-weight: bold;
+}
 .project p{ width: 90%; margin:10px auto;
 	font-size:0.8rem;
 	line-height:2;
-	color:#AC9F7D;
+	color:#070500;
 }
-.more{ width: 1000px; height:50px;  display: block;  margin: 10px auto;
-	padding-top: 170px;position: relative;
+.more{ width: 1000px; height:60px;  display: block;  margin: 10px auto;
+	padding-top: 150px;position: relative;
 }
-.more a{ float: left; margin: 0 8.5%;
+.more a{ float: left; margin:00px 9.5% 30px 9.5%;
 	font-size:1em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	border-top:1px solid #6C461B;
-	padding-top: 10px;
 	color:#000;
 	text-align:center;
 text-decoration: none;
 width: 0;
 height: 0;
 border-style: solid;
-border-width: 20px 40px 0 40px;
-border-color: #DF7500 transparent transparent transparent;}
-.more a:hover{border-color: #E4BF00 transparent transparent transparent;}
-.more p{float: left; margin: 0 8.5%;
+border-width: 20px 30px 20px 30px;
+border-color: transparent transparent #B48BB2 transparent ;}
+.more a:hover{margin:20px 9.5% 20px 9.5%;
+	border-width: 20px 30px 0 30px;
+	border-color: #9100FF transparent transparent transparent;}
+.more p{float: left; margin:20px 9.5%;
 width: 0;
 height: 0;
 border-style: solid;
-border-width: 20px 40px 0 40px;
-border-color: #B12005 transparent transparent transparent;}
+border-width: 20px 30px 0 30px;
+border-color: #F800E7 transparent transparent transparent;}
 
 /***手機***/
 @media screen and (max-width: 736px) {	
 *{box-sizing:border-box; /* 讓 padding 與 width 解除關係 */}
 html,body{-webkit-text-size-adjust:none;/* iPhone 旋轉後 文字不要放大 */}
 main{min-width:320px;}	
-.title{ width: 160px;
-	line-height:2.4rem;
-	margin:40px auto;
-	color:hsla(22,90%,35%,1.00);
-	background-color:#1E110A;
-	border: solid 0.3rem hsla(22,90%,35%,1.00);
-	border-radius: 1.4rem;
-	text-align: center; 
-font-weight: bold; letter-spacing: 1px;}
+	#example3{
+		padding:4px 0 6px 0;
+	}
+.title{margin:60px auto 40px auto;
+	width:40%;}
 .project{width: 100%; margin:30px auto;z-index: 1;}
 .project ul{}
-.project ul li{ float:left; width: 21%; height: 60px; margin:0 2%;}
+.project ul li{ float:left; width: 21%; height:30px; margin:0 2%;}
 .project h3{ display: block;
 	font-size:1.6em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	line-height:2;
 	border-bottom:none;
-	color:#F79D4F;
+	color:#8A0764;
 	text-align:center;}
-.project p{ display: none;
+.project p{ display: none;}
+.more{ width: 100%; height:40px; 
+	display: block;  margin:-100px auto 60px auto;
+	z-index: 2;
 }
-.more{ width: 100%; height:50px;  display: block;  margin: 10px auto;
-	padding-top: 10px;z-index: 2;
-}
-.more a{ float: left; margin: 0 2.5%;
+.more a{ float: left; margin:00px 5% 30px 5%;
 	font-size:1em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	border-top:1px solid #6C461B;
-	padding-top: 10px;
 	color:#000;
 	text-align:center;
 text-decoration: none;
 width: 0;
 height: 0;
 border-style: solid;
-border-width: 30px 40px 0 40px;
-border-color: #DF7500 transparent transparent transparent;}
-.more a:hover{border-color: #E4BF00 transparent transparent transparent;}
-.more p{float: left; margin: 0 2.5%;
+border-width: 20px 30px 20px 30px;
+border-color: transparent transparent #B48BB2 transparent ;}
+.more a:hover{margin:20px 5% 20px 5%;
+	border-width: 20px 30px 0 30px;
+	border-color: #9100FF transparent transparent transparent;}
+.more p{float: left; margin:20px 5%;
 width: 0;
 height: 0;
 border-style: solid;
-border-width: 30px 40px 0 40px;
-border-color: #B12005 transparent transparent transparent;}
-
-}
+border-width: 20px 30px 0 30px;
+	border-color: #F800E7 transparent transparent transparent;}}
 
 @media screen and (max-width: 375px) {
-	.more p{ margin: 10px 3%;border-width: 30px 35px 0 35px;}
-	.more a{ margin: 10px 3%;border-width: 30px 35px 0 35px;
-}
-	
-	
+	.more{ margin:60px auto 20px auto; padding-top: 00px;
+	}
+	.more a{ margin:00px 4% 20px 4%;}
+	.more a:hover{ margin:20px 4% 00px 4%;}
+	.more p{margin:20px 5% 10px 5%;}
 }	
 
 /* Example 4 */
