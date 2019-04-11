@@ -50,66 +50,69 @@ html {
 	-webkit-text-size-adjust:none;
 }
 
-body{background-image: url(../images/bgg.jpg)
-	
+body{ background-color: hsla(237,14%,26%,1);
 }
-
 
 /* --電腦版型------------------------------------- */
 
 #TOP-MENU{display:none;}
-main{position: relative;}
+main{ width:1200px; margin: 0 auto;
+	background-image: url(../images/bgg.jpg)}
 header{
 	width:100%;
-	height:550px;
+	height:490px;
 	margin:0 auto;
-	background: url(../images/DSC05448.jpg);
-	background-size:contain;
-	background-position:left center;
+	background:url(../images/22.jpg) no-repeat hsla(321,76%,77%,0.70);
+	background-size:cover;
+	background-position:center;
 }
-.top_text{ font-family: "微軟正黑體";
-	text-shadow:2px 1px 3px #000;
-	width:60%; height:100%;
+.top_text{ font-family: "微軟正黑體"; 
+	width:30%; height:280px;
 	display: block;
-	margin-left: 40%;
-	padding-left: 40px;
- background-color: hsla(321,100%,14%,0.7)}
-.top_text h1{color: #F8F0DD; padding-top:120px;
+	 margin:80px auto;
+ }
+.top_text h1{color:#fff; 
+	padding-top:70px;
 	width:100%; display:block;
-	font-size:1.8rem; line-height: 3rem;  }
-.top_text p{width:100%;
-	font-size:0.9rem; 
+	font-size:1.8rem; 
+	line-height: 2rem;}
+.top_text p{
+	width:100%;
+	font-size:0.8rem; 
 	line-height: 1.4rem;
 	letter-spacing: 1px;
-	color: #fff;
+	color: #FFFFFF;
 	padding:10px 0;
 	height: auto;}
 nav{
 	width:600px;
 	height: auto;
-	margin:-170px auto 0% 40%;
+	margin:0px auto;
+	position: relative;
+	padding-top:60px;
 }
-nav ul{
+nav ul{ margin-left:8%;
 	width:100%;
 	height: auto;
 }
 nav li{}
 nav li a{ 
-	width:13%; float: left; padding:15px;
-	margin-left:6%; margin-top: 4px;
+	width:12%; float: left; padding:15px;
+	margin-left:3%; margin-top: 4px;
 	font-size:0.7rem; letter-spacing: 1px;
 	text-align:center;
 	text-decoration:none;
 	color:#fff; line-height:1.4rem;
 	font-weight:bold;
 	border-radius:60px; 
-	background-color: hsla(299,95%,26%,1)
+	background-color: hsla(239,100%,10%,0.80)
 	}
 nav li a:hover{
 	color:#FFD456;
-	background-color: hsla(293,96%,43%,1.00);
+	background-color: hsla(0,0%,0%,0.80);
 	font-size:0.9rem;
 	border:#FFD456;	
+	letter-spacing: 0px;
 }
 nav li img{width:60%; height:60%;}
 .back{ display: block; z-index: 3;
@@ -125,34 +128,34 @@ nav li img{width:60%; height:60%;}
 	color:#fff;
 	border: solid 3px hsla(0,0%,76%,1.00);
 	border-radius:50px; 
-	background-color: hsla(357,8%,54%,1.00)}
+	background-color: #000}
 artile{position: relative;
-	width:100%; 
+	width:100%; height: auto; padding: 10px 0;
 	margin:0 auto;
+	background-color: hsla(0,0%,99%,0.5)
 }
-artile ul li{
-float: left;
-}
+artile ul{}
+artile ul li{float: left;}
 artile h3{
 	font-size:1.6em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	line-height:2;
 	border-bottom:1px solid #8A0764;
-	color:#8A0764;
+	color:#8A062B;
 	text-align:center; font-weight: bold;
 }
 artile h4{font-size:1.2em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	line-height:2.4rem;
 	border-bottom:1px solid #8A0764;
-	color:#8A0764;
+	color:#8A062B;
 	text-align:center;
 font-weight: bold;}
 artile h5{font-size:0.8em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	line-height:2.4rem;
 	border-bottom:1px solid #8A0764;
-	color:#6E385E;
+	color:#8A062B;
 	text-align:center;
 font-weight: bold;}
 artile p{
@@ -163,13 +166,12 @@ artile p{
 }
 
 .title{
-	width:400px; height: 2.6rem;
+	width:250px; height: 2.6rem;
 	line-height:2.6rem;
 	margin:80px auto;
 	color:#fff;
-	border: solid 0.1rem #DBA1E1;
-	background-color: #DBA1E1;
-	border-radius: 1.6rem;
+	border: solid 0.1rem;
+	background-color: hsla(221,100%,11%,0.80);
 	text-align: center; 
 	font-weight: bold; 
 	letter-spacing: 1px;}
@@ -183,6 +185,7 @@ artile p{
 #education ul li{width:40%; margin:0 5%;}
 #education p{ text-align: center; }
 #exp{height: 400px;}
+#exp ul{padding-top:12px;}
 #exp ul li{ float: left; width:18%; margin:0 1%;}
 
 .project{width:1000px; ;margin:0px auto;}
@@ -199,7 +202,7 @@ footer{
 	clear:both;
 	width:100%;
 	margin:0 auto;
-	background-color:#5B1751;
+	background-color:hsla(243,76%,10%,0.88);
 	padding:20px 0px;
 }
 footer p{
@@ -215,7 +218,7 @@ footer p{
 	
 *{box-sizing:border-box; /* 讓 padding 與 width 解除關係 */}
 html,body{-webkit-text-size-adjust:none;/* iPhone 旋轉後 文字不要放大 */}
-main{min-width:320px;}	
+main{width:100%; }	
 	#TOP-MENU{ z-index: 3;
 		display:block;
 		width:100%;
@@ -233,18 +236,27 @@ main{min-width:320px;}
 		top:10px;
 		text-indent:-9999px;
 	}
-	
+	header{
+	width:100%;
+	height:0;
+	margin:0 auto;
+	padding-bottom:170%; 
+	background-image:url(../images/22.jpg) ;
+	background-size: cover;
+	background-position: center;
+}
 	nav{ position:fixed;  z-index: 3;
 		width:100%;
 		height:auto; /* 高度自動 */
 		background-color:#000;
 		display:none;  /* 把主選單先關掉 */
-		margin:-270px auto 0px auto;
+		margin:50px auto;
 		padding: 0;
 	}
 	nav ul{
 		width:100%;
 		height:auto; /* 高度自動 */
+		
 	}
 	
 	nav li{ 
@@ -262,35 +274,30 @@ main{min-width:320px;}
 		padding: 0;
 		text-align:center;
 		text-decoration:none;
-		margin-left:0;
+		margin-left:-4%;
 		border-radius:0;
 		border: 0;	
-		background-color: hsla(304,81%,23%,1);
+		background-color:hsla(0,0%,0%,0.60);
 		color:#FCEBCB; 
 		font-size: 1rem;
 	}
 	nav li a:hover{
-		background-color:#1A0A25;
-		font-size: 1.2rem;
-	}
-	nav li a img{ display: none;}
-	
-	header{
-	width:100%;
-	height:0;
-	margin:0 auto;
-	padding-bottom:160%; 
-	background: url(../images/DSC05448.jpg);
-	background-size: cover;
-	background-position:  left;
+	color:#FFD456;
+	background-color: hsla(0,0%,0%,0.60);
+	font-size:1rem;
+	border:#FFD456;	
+	letter-spacing: 0px;
+	letter-spacing: 1px;
 }
+	nav li a img{ display: none;}
+
 .top_text{ position: relative;
-	top:280px; left:-40%;
-	width:100%; height:330px;
+	width:90%; height: auto;
+	margin:0 auto;
 	display: block;
-	padding-top:30px;
- 	background-color: hsla(321,100%,14%,0.7)}
-.top_text h1{color: #F8F0DD; 
+	padding-top:150px;
+ 	}
+.top_text h1{color: #fff; 
 	padding-top:0px;
 	width:100%; display:block;
 	font-size:1.8rem; line-height: 3rem;  }
@@ -330,14 +337,11 @@ artile p{
 	line-height:2.6rem;
 	margin:40px auto 20px auto;
 	color:#fff;
-	border: solid 0.1rem #DBA1E1;
-	background-color: #DBA1E1;
-	border-radius: 1.6rem;
 	text-align: center; 
 	font-weight: bold; 
 	letter-spacing: 1px;}
 #education,#exp,#skill
-{width:100%; padding:30px 10px; display: block; }
+{width:100%; padding:40px 10px; display: block; }
 #exp ul,#skill ul,#education ul{ width: 100%;  margin: 0 auto;}
 #skill{ height: 700px; }
 #skill ul{ margin-top: 50px;}	
