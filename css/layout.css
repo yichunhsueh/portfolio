@@ -241,7 +241,7 @@ main{width:100%; }
 	height:0;
 	margin:0 auto;
 	padding-bottom:170%; 
-	background-image:url(../images/22.jpg) ;
+	background-image:url(../images/56.jpg) ;
 	background-size: cover;
 	background-position: center;
 }
@@ -292,18 +292,18 @@ main{width:100%; }
 	nav li a img{ display: none;}
 
 .top_text{ position: relative;
-	width:90%; height: auto;
+	width:80%; height: auto;
 	margin:0 auto;
 	display: block;
-	padding-top:150px;
+	padding-top:200px;
  	}
 .top_text h1{color: #fff; 
 	padding-top:0px;
 	width:100%; display:block;
 	font-size:1.8rem; line-height: 3rem;  }
-.top_text p{width:94%;
-	font-size:0.9rem; 
-	line-height: 1.4rem;
+.top_text p{width:100%;
+	font-size:1rem; 
+	line-height: 1.6rem;
 	letter-spacing: 1px;
 	color: #fff;
 	height: auto;}
