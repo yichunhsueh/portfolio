@@ -117,13 +117,11 @@ body{ margin: 10px auto;
 }
 
 .title{
-	width:400px;
+	width:250px;
 	line-height:2.6rem;
 	margin:60px auto 100px auto;
 	color:#fff;
-	border: solid 0.1rem #DBA1E1;
-	background-color: #DBA1E1;
-	border-radius: 1.6rem;
+	background-color: hsla(221,100%,11%,0.80);
 	text-align: center; 
 	font-weight: bold; 
 	letter-spacing: 1px;}
@@ -134,8 +132,8 @@ body{ margin: 10px auto;
 	font-size:1.6em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
 	line-height:2;
-	border-bottom:1px solid #8A0764;
-	color:#8A0764;
+	border-bottom:1px solid #8A062B;
+	color:#8A062B;
 	text-align:center;
 	font-weight: bold;
 }
@@ -158,16 +156,16 @@ width: 0;
 height: 0;
 border-style: solid;
 border-width: 20px 30px 20px 30px;
-border-color: transparent transparent #B48BB2 transparent ;}
+border-color: transparent transparent #8494B0 transparent ;}
 .more a:hover{margin:20px 9.5% 20px 9.5%;
 	border-width: 20px 30px 0 30px;
-	border-color: #9100FF transparent transparent transparent;}
+	border-color: #C76F88 transparent transparent transparent;}
 .more p{float: left; margin:20px 9.5%;
 width: 0;
 height: 0;
 border-style: solid;
 border-width: 20px 30px 0 30px;
-border-color: #F800E7 transparent transparent transparent;}
+border-color: #8A062B transparent transparent transparent;}
 
 /***手機***/
 @media screen and (max-width: 736px) {	
@@ -205,16 +203,16 @@ width: 0;
 height: 0;
 border-style: solid;
 border-width: 20px 30px 20px 30px;
-border-color: transparent transparent #B48BB2 transparent ;}
+border-color: transparent transparent #8BA4B4 transparent ;}
 .more a:hover{margin:20px 5% 20px 5%;
 	border-width: 20px 30px 0 30px;
-	border-color: #9100FF transparent transparent transparent;}
+	border-color: #BB5981 transparent transparent transparent;}
 .more p{float: left; margin:20px 5%;
 width: 0;
 height: 0;
 border-style: solid;
 border-width: 20px 30px 0 30px;
-	border-color: #F800E7 transparent transparent transparent;}}
+	border-color: #8A062B transparent transparent transparent;}}
 
 @media screen and (max-width: 375px) {
 	.more{ margin:60px auto 20px auto; padding-top: 00px;
