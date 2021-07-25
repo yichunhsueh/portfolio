@@ -116,34 +116,9 @@ body{ margin: 10px auto;
 	border: 4px solid #000;
 }
 
-.title{
-	width:250px;
-	line-height:2.6rem;
-	margin:60px auto 100px auto;
-	color:#fff;
-	background-color: hsla(221,100%,11%,0.80);
-	text-align: center; 
-	font-weight: bold; 
-	letter-spacing: 1px;}
-.project{width: 1000px; margin:0 auto; position: relative; }
-.project ul{}
-.project ul li{ float: left; width: 19%; margin:0 3%;}
-.project h3{ display: block;
-	font-size:1.6em; letter-spacing: 2px;
-	font-family: "微軟正黑體";
-	line-height:2;
-	border-bottom:1px solid #8A062B;
-	color:#8A062B;
-	text-align:center;
-	font-weight: bold;
-}
-.project p{ width: 90%; margin:10px auto;
-	font-size:0.8rem;
-	line-height:2;
-	color:#070500;
-}
-.more{ width: 1000px; height:60px;  display: block;  margin: 10px auto;
-	padding-top: 150px;position: relative;
+
+.more{ width: 1000px; height:30px;  display: block;  margin:-40px auto 20px auto; padding-top: 10px;
+	position: relative;
 }
 .more a{ float: left; margin:00px 9.5% 30px 9.5%;
 	font-size:1em; letter-spacing: 2px;
@@ -156,16 +131,16 @@ width: 0;
 height: 0;
 border-style: solid;
 border-width: 20px 30px 20px 30px;
-border-color: transparent transparent #8494B0 transparent ;}
+border-color: transparent transparent #494949 transparent ;}
 .more a:hover{margin:20px 9.5% 20px 9.5%;
 	border-width: 20px 30px 0 30px;
-	border-color: #C76F88 transparent transparent transparent;}
+	border-color: #cecece transparent transparent transparent;}
 .more p{float: left; margin:20px 9.5%;
 width: 0;
 height: 0;
 border-style: solid;
 border-width: 20px 30px 0 30px;
-border-color: #8A062B transparent transparent transparent;}
+border-color: #9F1674 transparent transparent transparent;}
 
 /***手機***/
 @media screen and (max-width: 736px) {	
