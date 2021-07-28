@@ -176,9 +176,10 @@ artile p{
 	background-color: rgba(46, 46, 46, 0.8);
 	text-align: center; 
 	letter-spacing: 1px;}
-#education,#exp,#skill
+
+#education,#exp,#skill,#project
 {width:100%; ; margin:30px auto; }
-#exp ul,#skill ul,#education ul{ width: 1000px;  margin: 0 auto;}
+#exp ul,#skill ul,#education ul,#project ul{ width: 100%;  margin: 0 auto;}
 #skill{ height:750px;text-align: center;}
 #skill ul li{width:26%; margin:0 11%; }
 #skill img{ padding:40px;}
@@ -188,10 +189,10 @@ artile p{
 #exp{height: 400px;}
 #exp ul{padding-top:12px;}
 #exp ul li{ float: left;  width: 17%; margin:0 1%;}
+#project ul li{ float: left;  width: 20%; margin:0 2.5%;}
 
-.project{width:1000px; ;margin:0px auto;}
 
-.project ul li{width:19%;margin:0 3%; display: block;}
+
 .works{width:1000px; height:700px;
 	overflow-x: hidden;
 	overflow-y:hidden;
@@ -200,28 +201,11 @@ artile p{
 .works ul li{ float: left; width:18.5%; height:150px; 
 	display: block;margin:10px 0.7%;}
 
-.project{width: 1000px; margin:0 auto; position: relative; }
-.project ul{}
-.project ul li{ float: left; width: 19%; margin:0 3%;}
-.project h3{ display: block;
-	font-size:1.6em; letter-spacing: 2px;
-	font-family: "微軟正黑體";
-	line-height:2;
-	border-bottom:1px solid #9F1674;
-	color:#9F1674;
-	text-align:center;
-	font-weight: 300;
-}
-.project p{ width: 90%; margin:10px auto;
-	font-size:0.8rem;
-	line-height:2;
-	color:#ffffff;
-}
-
+.
 footer{
 	clear:both;
 	width:100%;
-	margin:0 auto;
+	margin:10px auto;
 	
 	padding:20px 0px;
 }
@@ -348,32 +332,33 @@ artile p{
 
 
 
-.title{ width:60%; display: block;
+.title{ width:60%; display: block; position: relative;
 	line-height:2.6rem;
-	margin:-10px auto 20px auto;
+	margin:0px auto 20px auto;
 	color:#fff;
 	text-align: center; 
 	font-weight: bold; 
 	letter-spacing: 1px;}
 #education,#exp,#skill
-{width:100%; padding:40px 10px; display: block; }
+{width:100%; padding:10px; display: block; margin-top: 80px; }
 #exp ul,#skill ul,#education ul{ width: 100%;  margin: 0 auto;}
 #skill{ height: 700px; }
 #skill ul{ margin-top: 50px;}	
 #skill ul li{width:80%; display: block;margin:20px 10%;  }
-#skill img { }
-#education { height:500px;}
+#skill img { width: 100%;height: auto; }
+#education { height:500px; padding-top: 80px;}
 #education ul{}
 #education ul li{width:80%; margin:30px 10%;}
 #education p{ text-align: center; }
-#exp{ height: 900px;}	
+#exp{ height: 1520px;}	
 #exp p{ text-align: center;}
 #exp ul{ height: auto;}
 #exp ul li{ width:80%; min-height: 220px; margin:20px 10%;}
 
-.project{width:100% ;margin:0px auto;}
+.project{width: 100%; height: 40px; margin:0px auto; }
+
 .project ul{}
-.project ul li{width:19%;margin:0 3%; }
+.project ul li{width:19%; height: 30px; margin:0 1% 0 %3; }
 .project ul li h3{
 	font-size:1em; letter-spacing: 2px;
 	font-family: "微軟正黑體";
@@ -382,11 +367,12 @@ artile p{
 	color:#9F1674;
 	text-align:center;
 }
-.works{width:100%; height:550px;
+#project ul li p{display: none;}
+.works{width:100%; height: 400px;
 	overflow: hidden;
-	margin:0px auto;}
+	margin:-30px auto 0px auto;padding: 0px;}
 .works ul{width:100%;}
-.works ul li{ float: left; width:18.5%; height:150px; 
+.works ul li{ float: left; width:18.5%; height:30px; 
 	display: block;margin:10px 0.7%;}
 	
 	
