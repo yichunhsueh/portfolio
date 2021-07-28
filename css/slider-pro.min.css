@@ -28,7 +28,7 @@
 }
 
 .sp-slide {
-    position: absolute; border: #000 2px solid;
+    position: absolute; border: #000 1px solid;
 }
 
 .sp-image-container {
@@ -85,9 +85,8 @@
 }
 
 .sp-thumbnails {
-    position: relative; margin-top: 6px;
-}
-.sp-thumbnails img{ border: #000 1px solid;}
+    position: relative; margin-top: 6px; }
+.sp-thumbnails img{ border:#000 1px solid;}
 .sp-thumbnail {
     border: none
 }
@@ -165,7 +164,7 @@
     left: 0;
     top: 50%;
     margin-top: -8px;
-    border-right: 13px solid red;
+    border-right: 13px solid rgb(107, 71, 71);
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent
 }
